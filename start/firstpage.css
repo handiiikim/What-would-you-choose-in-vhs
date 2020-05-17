@@ -40,7 +40,7 @@ font-family: 'VCR OSD Mono', monospace;
 
 .body {
   position: fixed;
-  background-color: blue;
+  background-color: black;
   width: 100%;
   height: 100%;
   top: 8%;
