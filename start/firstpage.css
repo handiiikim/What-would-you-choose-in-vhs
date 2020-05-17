@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR+OSD+Mono);
+@font-face {font-family: "VCR OSD Mono"; src: url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot"); src: url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff") format("woff"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.svg#VCR OSD Mono") format("svg"); }
+
+body, html {
+  margin : 0;
+  padding : 0;
+  background-color: transparent;
+  height: 100%;
+
+  overflow-x: hidden;
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+font-family: 'VCR OSD Mono', monospace;
+  font-size: 0.9em;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+
+}
+
+
+.mainbody {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 10;
+  background-color: blue;
+}
+
+.body {
+  position: fixed;
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  top: 8%;
+  background-image: url(picket.jpg);
+  background-size: cover;
+  z-index: 0;
+}
+
+.gun {
+  background-image: url(gun.png);
+  background-size: cover;
+  width: 800px;
+  height: 350px;
+  left: 15%;
+  top: 30vh;
+  position: absolute;
+  z-index: 100;
+}
+
+.gun:hover {
+  background-image: url(gun-hover.png);
+  background-size: cover;
+  width: 800px;
+  height: 350px;
+  left: 15%;
+  top: 30vh;
+  position: absolute;
+}
+
+.body h1 {
+  padding-left: 0.3em;
+  padding-top: 1em;
+  font-size: 8em;
+  color: red;
+  overflow: scroll; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+
+}
+
+.reference {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+  visibility: hidden;
+width: 38%;
+height: 60%;
+left: 30%;
+top: 10%;
+position: relative;
+z-index: 10;
+background-color: blue;
+outline: rgb(112, 255, 0) solid 5px;
+}
+
+.reference h1{
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  font-size: 3.5em;
+  color: red;
+  text-align: center;
+}
+
+.box {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+  visibility: hidden;
+  width: 25%;
+  height: 10%;
+  left: 55%;
+  top: 48%;
+  position: relative;
+  z-index: 1000;
+}
+
+.yes {
+width: 100%;
+height: 50%;
+background-color: transparent;
+position: relative;
+outline: rgb(112, 255, 0) solid 5px;
+background-color: blue;
+color: rgb(112, 255, 0);
+font-size: 1.5em;
+
+}
+
+.yes h3 {
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+
+.no h3 {
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+
+.avoid h3 {
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+
+
+.no {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  position: relative;
+  outline: rgb(112, 255, 0) solid 5px;
+  background-color: blue;
+  color: rgb(112, 255, 0);
+  font-size: 1.5em;
+
+}
+
+.avoid {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  position: relative;
+  outline: rgb(112, 255, 0) solid 5px;
+  background-color: blue;
+  color: rgb(112, 255, 0);
+  font-size: 1.5em;
+
+}
+
+
+.scene {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+  visibility: hidden;
+  width: 75%;
+  height: 8%;
+  left: 12%;
+  position: fixed;
+  outline: rgb(112, 255, 0) solid 5px;
+  text-align: center;
+  padding-left: 2em;
+  color:rgb(112, 255, 0);
+font-family: 'VCR OSD Mono', sans-serif;
+}
+
+.block {
+  width: 12%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+}
+
+#left{
+  left: 0;
+  top: 0;
+
+}
+
+#right{
+  right: 0;
+  top: 0;
+}
+
+
+.top-saying h2 {
+  margin-top: 0;
+  margin-left: 1em;
+  overflow-y: hidden;
+}
+
+#objector {
+top: 10%;
+left: 14%;
+z-index: 100;
+}
+
+#you {
+top: 68%;
+right: 14%;
+z-index: 100;
+
+}
+
+#youngman {
+  top: 32%;
+  right: 17%;
+  z-index: 10;
+
+}
+
+
+.textbox{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+img {
+  position: fixed;
+  z-index: 10;
+}
+
+a {
+  color: rgb(112, 255, 0);
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.he {
+  background-color: transparent;
+  width: 40%;
+  height: 50%;
+  text-align: left;
+  position: relative;
+  left: 10%;
+  z-index: 1;
+
+}
+
+.he h1 {
+  padding-top: 0em;
+  padding-left: 1em;
+}
+
+.you{
+  width: 80%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  top: 30vh;
+  background-color: transparent;
+  z-index: 1;
+
+
+}
+
+.you h1 {
+  padding-top: 0em;
+  padding-left: 1em;
+}
+
+
+.bar {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
+  visibility: hidden;
+  outline: rgb(112, 255, 0) solid 5px;
+  width: 53%;
+  height: 30%;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: blue;
+}
+
+
+.left-image {
+  outline: rgb(112, 255, 0) solid 5px;
+  width: 30%;
+  height: 100%;
+  position: relative;
+  background-color: transparent;
+  z-index: 100;
+}
+
+#he {
+  background-image: url(oh.jpg);
+  background-size: cover;
+}
+
+#me {
+  background-image: url(kirby.jpg);
+  background-size: cover;
+}
+
+#youngman-portrait{
+  background-image: url(youngman.jpg);
+  background-size: cover;
+}
+
+.top-saying {
+ width: 100%;
+  height: 10%;
+  position: relative;
+  overflow: scroll;
+  outline: rgb(112, 255, 0) solid 5px;
+  background-color: rgb(112, 255, 0);
+  z-index: 100;
+  color: white;
+}
+
+.right-narrative {
+  color: rgb(112, 255, 0);
+    width: 80%;
+    height: 100%;
+    position: relative;
+    overflow: scroll;
+    outline: rgb(112, 255, 0) solid 5px;
+    background-color: transparent;
+}
+
+.right-narrative h2{
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+.right-narrative h3{
+  font-size: 1.6em;
+  margin-top: 0.1em;
+  margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+#highlight h2:hover {
+    background-color: white;
+}
+
+
+
+
+
+.mobiletext{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  body, html {
+    height: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+   }
+
+  .welcome {
+background-position: 50% ;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+  body, html {
+    height: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+   }
+
+  .welcome {
+background-position: 50%;
+}
+
+}
