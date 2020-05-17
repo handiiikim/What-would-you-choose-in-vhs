@@ -16,7 +16,7 @@ body, html {
 -ms-user-select: none;
 user-select: none;
 font-family: 'VCR OSD Mono';
-  font-size: 0.9em;
+  font-size: 1.2em;
   /* -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: black; */
 }
@@ -105,7 +105,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .reference h1{
   padding: 0.5em 0.5em 0.5em 0.5em;
-  font-size: 3.2em;
+  font-size: 3.5em;
   color: white;
   text-align: center;
 }
