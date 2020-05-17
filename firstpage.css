@@ -16,7 +16,7 @@ body, html {
 -ms-user-select: none;
 user-select: none;
 font-family: 'VCR OSD Mono', monospace;
-  font-size: 1em;
+  font-size: 0.9em;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -104,7 +104,7 @@ background-color: transparent;
   z-index: 100;
   text-align: center;
   color: rgb(112, 255, 0);
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .play h3 {
