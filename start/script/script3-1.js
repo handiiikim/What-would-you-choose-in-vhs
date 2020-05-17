@@ -17,7 +17,7 @@ setTimeout("showIt3()", 8000); // after 5 secs
 function showIt4() {
   document.getElementById("objector").style.visibility = "visible";
 }
-setTimeout("showIt4()", 13000); // after 5 secs
+setTimeout("showIt4()", 14000); // after 5 secs
 
 function showIt5() {
   document.getElementById("first2").style.visibility = "visible";
