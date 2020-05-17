@@ -42,6 +42,11 @@ background-color: blue;
   background-size: cover;
 }
 
+.title:hover {
+  background-image: url(title-hover.png);
+  background-size: cover;
+}
+
 .vhs {
   visibility: hidden;
   width: 23%;
@@ -52,6 +57,7 @@ background-color: blue;
   background-image: url(vhs.png);
   background-size: cover;
 }
+
 
 #left{
   left: 0;
