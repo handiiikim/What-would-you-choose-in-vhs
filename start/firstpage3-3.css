@@ -2,6 +2,10 @@
 @import url(//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR+OSD+Mono);
 @font-face {font-family: "VCR OSD Mono"; src: url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot"); src: url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.woff") format("woff"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2545d122b16126676225a5b52283ae23.svg#VCR OSD Mono") format("svg"); }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body, html {
   margin : 0;
   padding : 0;
