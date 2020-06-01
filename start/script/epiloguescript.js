@@ -30,3 +30,10 @@ function showIt5() {
 }
 
 setTimeout("showIt5()", 20000); // after 1 sec
+
+
+function showIt6() {
+  document.getElementById("epilogue").style.visibility = "visible";
+}
+
+setTimeout("showIt6()", 23000); // after 1 sec
